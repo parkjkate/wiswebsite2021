@@ -21,5 +21,9 @@ The section is divided into different files inside src/components
 - services.jsx = join us (membership google form)
 - testimonials.jsx = newsletter sign up form
 
+### 5. github set up 
+<a href="https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line">For setting up the github repository and pushing changes</a>
+
+
 ## Credits
 <a href="https://github.com/issaafalkattan/React-Landing-Page-Template">Template</a>
