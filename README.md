@@ -16,10 +16,10 @@ After cloning the files, you will have to run ```yarn``` followed by ```yarn sta
 The section is divided into different files inside src/components
 
 ### 4. Change in file names
-gallery.jsx = events (past, current, future)
-features.jsx = schedule (google calendar)
-services.jsx = join us (membership google form)
-testimonials.jsx = newsletter sign up form
+- gallery.jsx = events (past, current, future)
+- features.jsx = schedule (google calendar)
+- services.jsx = join us (membership google form)
+- testimonials.jsx = newsletter sign up form
 
 ## Credits
 <a href="https://github.com/issaafalkattan/React-Landing-Page-Template">Template</a>
