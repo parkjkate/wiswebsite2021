@@ -7,6 +7,9 @@
     node -v command on terminal
 - Download yarn using npm:
     sudo npm i -g yarn
+For Windows:
+    yarn add react-scripts
+    yarn start
 - Check if you have yarn installed:
     yarn -v command on terminal
 ### 2. Clone Files
