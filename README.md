@@ -8,7 +8,7 @@
 - Download yarn using npm:
     sudo npm i -g yarn
 - For Windows:
-   ```yarn add react-scripts ``` and then
+   ```yarn add react-scripts``` and then
    ```yarn start```
 - Check if you have yarn installed:
     yarn -v command on terminal
