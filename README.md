@@ -8,8 +8,8 @@
 - Download yarn using npm:
     sudo npm i -g yarn
 - For Windows:
-    yarn add react-scripts
-    yarn start
+   ```yarn add react-scripts ``` and then
+   ```yarn start```
 - Check if you have yarn installed:
     yarn -v command on terminal
 ### 2. Clone Files
