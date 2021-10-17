@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
 
+
 const initialState = {
   name: '',
   email: '',
@@ -20,7 +21,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_3gmk19f', 'template_j7sicae', e.target, 'user_Yi0hwVNxNbgJ4HvfkuKEs'
       )
       .then(
         (result) => {
@@ -90,7 +91,7 @@ export const Contact = (props) => {
                 </div>
                 <div id='success'></div>
                 <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
+                  Send Us an Email!
                 </button>
               </form>
             </div>
@@ -100,49 +101,28 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-instagram'></i>
+                  <a title="Instagram" href="https://www.instagram.com/womeninscienceuwo/?hl=en" target="_blank" rel="noreferrer">
+                    Instagram </a>
                 </span>
-                {props.data ? props.data.address : 'loading'}
+                <p></p>
+                <p><strong></strong></p>
               </p>
             </div>
             <div className='contact-item'>
               <p>
-                <span>
-                  <i className='fa fa-phone'></i> Phone
-                </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+
+                <i className='fa fa-facebook'> </i>
+                <a title="Facebook" href="https://www.facebook.com/WomeninScienceUWO" target="_blank" rel="noreferrer">
+                  Instagram </a>
               </p>
             </div>
             <div className='contact-item'>
               <p>
-                <span>
-                  <i className='fa fa-envelope-o'></i> Email
-                </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                <i className='fa fa-envelope-o'></i>
+                <a title="Facebook" href="mailto: uwo.wis.events@gmail.com" target="_blank" rel="noreferrer">
+                  Email </a>
               </p>
-            </div>
-          </div>
-          <div className='col-md-12'>
-            <div className='row'>
-              <div className='social'>
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>
@@ -150,10 +130,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-            </a>
+            &copy; 2021 Created with Love by Women In Science at Western University.
           </p>
         </div>
       </div>
