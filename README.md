@@ -12,6 +12,8 @@
    ```yarn start```
 - Check if you have yarn installed:
     yarn -v command on terminal
+- Install following packages: 
+   ```npm install react-bootstrap@next bootstrap@5.1.1```
 ### 2. Clone Files
 After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
 
