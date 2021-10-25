@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Button from 'react-bootstrap/Button'
 export const Services = (props) => {
   return (
@@ -20,6 +19,13 @@ export const Services = (props) => {
         <p>
           Don't miss any important info, sign up for our montly newsletter!
         </p>
+        <div className='row'>
+          <>
+            <Button variant="primary" size="lg" href = 'https://forms.gle/nP9L6eaGFfXMDCN17' target="_blank">
+              Mailing List
+            </Button>{''}
+          </>
+        </div>
         </div>
       </div>
     </div>
