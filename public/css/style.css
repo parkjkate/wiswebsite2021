@@ -315,6 +315,19 @@ background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);}
   padding: 100px 0;
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);  color: #fff;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item {
+  width: 120px;
+  min-height: 120px;
+  max-height: auto;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
 
 #join .service-desc {
   margin: 10px 10px 20px;
@@ -407,7 +420,8 @@ background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);}
   margin: 5px 0;
 }
 #team .team-img {
-  width: 240px;
+  width: 250px;
+  height: 250px;
 }
 #team .thumbnail {
   background: transparent;
