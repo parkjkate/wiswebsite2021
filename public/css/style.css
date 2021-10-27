@@ -3,7 +3,7 @@ html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #777;
+  color: white;
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -18,16 +18,16 @@ h2 {
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
-  color: #333;
+  color: white
 }
 h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #333;
+  color: white;
 }
 h4 {
   font-size: 18px;
-  color: #333;
+  color: white;
   font-weight: 600;
 }
 h5 {
@@ -43,7 +43,7 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #608dfd;
+  color: white;
   font-weight: 400;
 }
 a:hover,
@@ -70,13 +70,17 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+
+.Logo {
+  background-image: url(/Users/katepark/Documents/wiswebsite2021-main/public/img/portfolio/logo.png);
+}
 /* Navigation */
 #menu {
   padding: 15px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #ce93d8;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -84,13 +88,13 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: white;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: white;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -104,7 +108,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: white;
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +129,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: white!important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -138,7 +142,7 @@ hr {
   border-color: #608dfd;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: white
 }
 .section-title {
   margin-bottom: 70px;
@@ -152,7 +156,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: white;
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -167,8 +171,8 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-  padding: 14px 34px;
+  background-color: #f9c1b1;
+  background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);      padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
   font-size: 15px;
@@ -221,7 +225,7 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 60px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -232,9 +236,9 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  color: white;
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
@@ -244,11 +248,10 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
-/* Features Section */
-#features {
-  background: #f6f6f6;
-}
-#features i.fa {
+/* schedule Section */
+#schedule {
+background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);}
+#schedule i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -257,14 +260,14 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
+  background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);}
 /* About Section */
 #about {
   padding: 100px 0;
+  background-color: #f9d29d;
+  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
 }
-#about h3 {
+  #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
 }
@@ -307,19 +310,19 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
-/* Services Section */
-#services {
+/* join Section */
+#join {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);  color: #fff;
 }
-#services .service-desc {
+
+#join .service-desc {
   margin: 10px 10px 20px;
 }
-#services h2 {
+#join h2 {
   color: #fff;
 }
-#services .section-title h2::after {
+#join .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -329,31 +332,28 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
+#join i.fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#services h3 {
+#join h3 {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
 }
-#services p {
-  color: rgba(255, 255, 255, 0.75);
-}
-#services .service-desc {
+
+#join .service-desc {
   margin-bottom: 40px;
 }
-/* Portfolio Section */
-#portfolio {
+/* events Section */
+#events {
   padding: 100px 0;
-}
+  background-color: #f39f86;
+  background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);}
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
@@ -362,17 +362,14 @@ header .intro-text {
   overflow: hidden;
   position: relative;
   margin: 0;
+  
 }
 .hover-bg .hover-text {
   position: absolute;
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
+  background-image: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
@@ -399,51 +396,14 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
-/* Testimonials Section */
-#testimonials {
-  padding: 100px 0;
-  background: #f6f6f6;
-}
-#testimonials i {
-  color: #e6e6e6;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-.testimonial {
-  position: relative;
-  padding: 20px;
-}
-.testimonial-image {
-  float: left;
-  margin-right: 15px;
-}
-.testimonial-image,
-.testimonial-image img {
-  display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
-.testimonial-content {
-  position: relative;
-  overflow: hidden;
-}
-.testimonial-content p {
-  margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
-}
-.testimonial-meta {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #666;
-}
+
+
 /* Team Section */
 #team {
   padding: 100px 0;
-}
-#team h4 {
+  background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);}
+  
+  #team h4 {
   margin: 5px 0;
 }
 #team .team-img {
@@ -455,13 +415,12 @@ header .intro-text {
 }
 #team .thumbnail .caption {
   padding: 10px 0 0;
-  color: #888;
+  color: #333;
 }
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: rgba(255, 255, 255, 0.75);
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);  color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -483,6 +442,9 @@ header .intro-text {
   width: 60px;
   bottom: 0;
   left: 30px;
+}
+#contact a{
+  color: white;
 }
 #contact h3 {
   color: #fff;
@@ -580,16 +542,15 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
-  background: #fff;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);  background: #fff;
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
-  padding: 30px 0;
+background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);  padding: 30px 0;
+
 }
 #footer p {
-  color: #888;
+  color: white;
   font-size: 14px;
 }
 #footer a {
