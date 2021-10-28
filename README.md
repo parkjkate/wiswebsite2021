@@ -30,6 +30,8 @@ The section is divided into different files inside src/components
 ### 5. github set up 
 <a href="https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line">For setting up the github repository and pushing changes</a>
 
+## NOTE:
+<a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwindowsloop.com%2Fenable-powershell-scripts-execution-windows-10%2Famp%2F&h=AT1z033RjA7Xj7wPkfDgpZG6xO5UOPD0NFdmAKDRaubNa2zxJYf1nK_BEgenkLp9I-XIYaP52PaFgEAlhTJqrfFfFqf30QeY1CBFHRiDEOP5V-1HbaY6IuvucTg-oO2fo9f6pUUBhd3R5mWVmNJFAA"> To enable running scripts on your system; for Windows Users 
 
 ## Credits
 <a href="https://github.com/issaafalkattan/React-Landing-Page-Template">Template</a>
