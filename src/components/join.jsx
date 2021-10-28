@@ -8,6 +8,7 @@ export const Join = (props) => {
         <p>
           Ready to take a stand against the gender disparities in STEM?
         </p>
+        &nbsp;
         <div className='row'>
           <>
 
@@ -19,7 +20,7 @@ export const Join = (props) => {
         <div>
           &nbsp;
         <p>
-          Don't miss any important info, sign up for our montly newsletter!
+          {/* Don't miss any important info, sign up for our montly newsletter! */}
         </p>
         </div>
       </div>
